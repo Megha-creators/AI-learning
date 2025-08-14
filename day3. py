@@ -1,0 +1,31 @@
+# Day 3 - Python Strings
+
+# Creating strings
+name = "Meghana"
+goal = "Become an AI Engineer"
+
+# String concatenation
+full_sentence = "Hello, my name is " + name + " and my goal is to " + goal
+print(full_sentence)
+
+# String length
+print("Length of name:", len(name))
+
+# Accessing characters
+print("First letter of name:", name[0])
+print("Last letter of name:", name[-1])
+
+# String slicing
+print("First three letters of name:", name[:3])
+print("Last three letters of name:", name[-3:])
+
+# Changing case
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+
+# Replace words
+new_goal = goal.replace("AI Engineer", "Data Scientist")
+print("Updated goal:", new_goal)
+
+# Check if a word exists
+print("Does goal contain 'AI'? ->", "AI" in goal)
