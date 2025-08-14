@@ -30,4 +30,4 @@ print("\nModel Accuracy:", accuracy)
 # Example prediction
 sample = [[5.1, 3.5, 1.4, 0.2]]
 predicted_class = model.predict(sample)[0]
-print("Predicted Class:", iris.target_names[predicted_class])
+print("Predicted Class:", iris.target_names[predicted_class]) 
